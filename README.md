@@ -52,6 +52,15 @@ LSWMD.pkl (2GB, 2019년 pandas 0.19 피클)
 3. **대칭성 기반 증강** — 웨이퍼 불량 패턴은 회전·반전해도 클래스가 유지되므로 90° 회전 + 상하/좌우 반전 증강을 적용해 소수 클래스(Donut 555장, Near-full 149장)를 보완했습니다.
 4. **파이프라인 사전 검증** — GPU 학습 전에 RandomForest(26x26)로 라벨 학습 가능성을 확인했습니다: accuracy 78.3% / macro-F1 0.647. 이 수치가 딥러닝 모델의 최소 기준선(baseline floor)이 됩니다.
 
+### 실행 환경
+
+- Python 3.13
+- TensorFlow / Keras
+- PyTorch / Hugging Face Transformers
+- Google Colab (T4 GPU 권장)
+
+> 한글 시각화는 Colab 환경의 NanumGothic 폰트를 사용합니다.
+
 ## 실행 방법
 
 ```bash
