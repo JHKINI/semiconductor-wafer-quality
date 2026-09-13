@@ -1,0 +1,40 @@
+{
+  "class_names": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-full",
+    "Random",
+    "Scratch",
+    "none"
+  ],
+  "counts_original": {
+    "Center": 4294,
+    "Donut": 555,
+    "Edge-Loc": 5189,
+    "Edge-Ring": 9680,
+    "Loc": 3593,
+    "Near-full": 149,
+    "Random": 866,
+    "Scratch": 1193,
+    "none": 147431
+  },
+  "counts_used": {
+    "Center": 4294,
+    "Donut": 555,
+    "Edge-Loc": 5189,
+    "Edge-Ring": 9680,
+    "Loc": 3593,
+    "Near-full": 149,
+    "Random": 866,
+    "Scratch": 1193,
+    "none": 13000
+  },
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ]
+}

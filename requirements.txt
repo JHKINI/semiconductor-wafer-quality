@@ -1,0 +1,16 @@
+# 공통 (전처리 / EDA / 평가)
+numpy
+pandas
+opencv-python-headless
+matplotlib
+scikit-learn
+
+# CNN 학습
+tensorflow>=2.15
+
+# ViT 파인튜닝
+torch
+transformers>=4.40
+
+# 대시보드
+streamlit
