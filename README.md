@@ -26,6 +26,18 @@
 
 > ※ 원인 후보는 웨이퍼 맵 패턴에 대한 도메인 지식을 바탕으로 정리한 것으로, 본 데이터셋에는 개별 공정 조건·장비 정보가 포함되어 있지 않아 실제 불량 원인으로 검증한 결과는 아닙니다.
 
+> ⚠️ 본 프로젝트의 데이터셋은 WM-811K 원본 데이터셋을 기반으로 하였으며,
+> 프로젝트에서는 필요한 데이터를 선별·전처리하여 모델 학습에 사용하였다.
+> 원본 데이터셋 자체는 본 저장소에 포함하지 않는다.
+
+### Dataset Reference
+
+M.-J. Wu, J.-S. R. Jang, and J.-L. Chen,
+"Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets,"
+*IEEE Transactions on Semiconductor Manufacturing*, vol. 28, no. 1, pp. 1–12, 2015.
+
+Dataset:
+https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map
 `none`이 전체의 85%를 차지하는 극단적 불균형 → **다운샘플링(13,000장) + 클래스 가중치**로 이중 보정했습니다. 최종 학습 데이터는 38,519장(train 26,961 / val 5,774 / test 5,784, 층화 분할)입니다.
 
 ![클래스 분포](outputs/figures/class_distribution.png)
